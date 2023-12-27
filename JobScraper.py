@@ -1,4 +1,6 @@
-import bs4
+from bs4 import BeautifulSoup as bs
+import requests
+import math
 
 class JobScraper:
     '''
@@ -28,7 +30,11 @@ class JobScraper:
         query_string = query_string[:-1]
 
     def __queryJobs(self, criteria: dict):
+
         # self.jobsHtml =
+        return None
+
+    def __extractJobIds(self):
         return None
 
     def __parseJobs(self):

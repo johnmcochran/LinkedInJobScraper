@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup as bs
 import requests
 import math
 
+
 if __name__ == '__main__':
     target_url = 'https://www.linkedin.com/jobs/search/?currentJobId=3763562394&geoId=90000348&keywords=data%20engineer&location=Greater%20Indianapolis&origin=JOB_SEARCH_PAGE_JOB_FILTER&refresh=true'
 
